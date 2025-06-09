@@ -1,0 +1,27 @@
+Driver:
+
+{
+    "autono": "KA88F4089",
+    "confirmpassword": "123456",
+    "driver_name": "Ram",
+    "email": "ram@gmail.com",
+    "gender": "male",
+    "license_no": "KA20 23234567899",
+    "password": "123456",
+    "phone": "8105965002"
+
+}
+
+SeatBooking:
+{
+    {
+        "no_of_seats" : 1,
+        "date" : "2024-12-12",
+        "time" : "02:07:22",
+        "custid" : "SA00011"
+
+
+    }
+
+
+}

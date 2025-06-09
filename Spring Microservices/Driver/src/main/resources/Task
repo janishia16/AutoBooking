@@ -1,0 +1,18 @@
+Driver:
+        1. Login details                        ---DOne
+        2. View Booked Customer details
+        3. view profile                         --Done
+        4. edit profile                         --Done
+        5. Add Seat Booking task                --Done
+        6. view seat booking  by BookingId      --Done
+        7. view seat boooking by Auto_No        --Done
+        8. Update profile                       --Done
+
+To DO:
+
+        0. Correct Url Names
+        1. User Authentication
+        2. Jwt Token
+        3. Docker
+        4. Front ENd user sign
+        5. Api Gateway                          --Done
