@@ -1,0 +1,124 @@
+/* Container */
+.container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    
+  }
+  body {
+    margin :0;
+    overflow: hidden; 
+    background-color: #f0f8ff;
+}
+
+
+  /* Login Box */
+  .loginBox {
+    background-color: #ffffff; /* White background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  /* Title */
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+    font-family: "Lexend Giga", sans-serif;
+    color: #FFC107; 
+  }
+  
+  /* Form Styling */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Form Group */
+  .formGroup {
+    text-align: left;
+  }
+  
+  /* Label */
+  .label {
+    font-family: "Lexend Giga", sans-serif;
+    font-size: 0.9rem;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Input Fields */
+  .input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #dcdcdc; /* Light gray border */
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: border 0.2s ease-in-out;
+    margin-bottom: 30px;
+    font-family: "Lexend Giga", sans-serif;
+  }
+  
+  .input:focus {
+    border-color: #FFECB3;
+    outline: none;
+  }
+  
+  .button {
+    padding: 10px;
+    background-color: #FFC107; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    grid-column: span 2;
+    margin-left: 10px;
+    margin-right:10px;
+    font-family: "Lexend Giga", sans-serif;
+    margin-top: 40px;
+    
+}
+
+.signupText {
+
+  font-size: 1.0rem;
+  font-family: "Lexend Giga", sans-serif;
+  color: #333333;
+  margin-top: 15px;
+  text-align: center;
+
+
+}
+
+.signupText .link {
+color: #FFC107; 
+text-decoration: none;
+}
+
+.signupText .link:hover {
+text-decoration: underline;
+
+}
+
+  .error {
+    color: #d9534f; 
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    margin-top: 0.3rem; 
+    margin-bottom: 0.5rem; 
+    font-family: "Lexend Giga", sans-serif;
+  }
+  

@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+
+/* Global Styles */
+html, body {
+  font-family: "Lexend Giga", sans-serif;
+  font-size: 14px;
+  height: auto;
+  overflow: auto; 
+}
+
+.container {
+  display: flex; 
+  width: 100%; 
+  min-height: 100vh;
+  max-height: auto;
+  background-image: url('../../Image/booking.png'); 
+}
+
+/* Bookings Container */
+#bookings {
+  backdrop-filter: blur(7px);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 90px auto;
+  margin-left: 480px;
+  width: 50%;
+  text-align: center;
+  height:fit-content;
+}
+
+/* Booking Items */
+.booking-items {
+  width: 100%;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+  margin: 2rem 0 0 0;
+  padding: 0;
+}
+
+.booking-item {
+  margin-left: 40px;
+  background-color: white;
+  border: 1px solid #FFECB3;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.booking-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.booking-item header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.booking-item-meta {
+  width: 50%;
+}
+
+.booking-item-meta div {
+  /* width: 15rem; */
+  /* padding: 10px; */
+  /* font-size: 1.2rem; */
+  color: #333;
+}
+
+.seat {
+  display: flex;
+  /* width: 100%;  */
+  white-space: nowrap; 
+  font-size: 1.1rem; 
+  border-radius: 6px;
+  padding-left: 9rem;
+}
+
+.booking-item header h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #333333;
+  width: 15rem;
+}
+
+.booking-item-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding-left: 39.5rem;
+}
+
+.booking-item-actions button {
+  font-family: "Lexend Giga", sans-serif;
+  cursor: pointer;
+  font-weight: 600;
+  background: #FFECB3;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.booking-item-actions button:hover {
+  background: #FFC107;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.booking-item img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.booking-item-details {
+  width: 95%;
+  background: #FFECB3;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.booking-item-details button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: black;
+  font-weight: 500;
+  font-family: "Lexend Giga", sans-serif;
+}
+
+.booking-item-details-icon {
+  display: inline-block;
+  font-size: 0.9rem;
+  margin-left: 0.25rem;
+  transition: transform 0.3s ease-out;
+}
+
+.booking-group {
+  display: flex;
+  justify-content: space-between; /* Aligns items to left & right */
+  align-items: center; /* Keeps elements vertically aligned */
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+
+/* Driver Card */
+.driverCard {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 0.5rem;
+  max-width: 495px;
+}
+
+.driverInfo p {
+  margin: 0.25rem 0;
+  font-size: 1rem;
+  color: #333;
+  text-align: left;
+  padding-top: 10px;
+}
+
+/* Tabs */
+#tabs {
+  list-style: none;
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+#tabs button {
+  padding: 0.5rem 1rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  background: transparent;
+  color:#FFC107;
+  border: none;
+  font-weight: 700;
+  font-family: "Lexend Giga", sans-serif;
+}
+
+#tabs button:hover,
+#tabs button.selected {
+  color: white;
+  transform: scale(1.05);
+}
+
+#tabs .active-tab-indicator {
+  border: 2px solid #FFC107;
+  border-radius: 8px;
+}
+
+.badge {
+  margin-left: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  background: #FFC107;
+  color: white;
+  font-size: 0.75rem;
+}
+
+/* Buttons */
+.button-text {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: #3f0c26;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button-text:hover {
+  color: #7c184c;
+}
+
+.submitButton {
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  background: #FFC107;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+  font-weight: bold;
+}
+
+.submitButton:hover {
+  background: #1E3A8A;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #295e05;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: red;
+}
