@@ -1,0 +1,38 @@
+
+TASK:
+    TuesDay:
+    1. Amount to Display   --Done
+    2. Show Success Status -- Done
+    3. upi is correct show a small green tick ---Done (also Added cross)
+    4. Change the view details css look --done
+    
+    Wednesday:
+    1. Payment details to save in DB  --Done
+    2.Signup on driver side -- Done
+    3.when i create new user its not working login --Done
+    4. work on logout. change islogin,delete the id frm llocal storage --Done
+    5. work  on update(create separate form using proper css and all) --Done
+
+    Thursday:
+    1. Add conditions for input in signup of driver --Done
+    2.Add password and confirmpassword for backend --Done
+    3. Check if email exists in bckend do tht in backend --Done
+
+    friday:
+    SEE BOOKINGS                                            --Done
+    1. Test signup and login                                --Done
+    2. change the user to driver/user                       --Done
+    3. Display all the rides he got,                        --Done
+    4. Conplete the front -end.                             --Done
+    5. Booking upi tick is not applying                     --Done
+
+
+    Monday:
+    1. After loading the page then change the page,             --Done
+    2. backend change the islogin to false when logged out      --Done
+    3. if 2 user signin simultanously its a overidding issue    ---Important
+    4. ABout us                                                 --Done
+    5. Update Profile                                           --Done
+    6. WHen update chnge the user table                         --Done
+  
+
