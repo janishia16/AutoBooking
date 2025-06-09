@@ -1,0 +1,17 @@
+Customer:
+{
+
+    "customername": "Qww",
+    "phone": 7761789444,
+    "email": "Qwwt@cognizant.com",
+    "gender": "Female"
+}
+
+payment:
+{
+    "upiId":"sda@upi",
+    "phone":"9087654321",
+    "amount" : 2000,
+    "custid": "SA00011"
+
+}

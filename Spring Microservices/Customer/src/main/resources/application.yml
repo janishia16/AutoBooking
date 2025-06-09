@@ -1,0 +1,49 @@
+server:
+    port: 8081
+
+spring:
+    h2:
+        console:
+            enabled: true
+            path: /h2-console
+    security:
+        user:
+            name: Customer
+            password: start
+    application:
+        name: Customer
+    datasource:
+        driver-class-name: org.h2.Driver
+        url: jdbc:h2:mem:testdb
+        username: Customer
+        password: ""
+        schema: classpath:schema.sql
+        data : classpath:data.sql
+
+    jpa:
+        database-platform: org.hibernate.dialect.H2Dialect
+        hibernate:
+            ddl-auto: update
+            show-sql: true
+
+
+
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8761/eureka
+
+
+    instance:
+        hostname: localhost
+
+logging:
+    level:
+        org:
+            springframework: INFO
+        com:
+            cognizant: INFO
+    file:
+        name: app.log
+
+        org.springframework.cloud.openfeign: DEBUG

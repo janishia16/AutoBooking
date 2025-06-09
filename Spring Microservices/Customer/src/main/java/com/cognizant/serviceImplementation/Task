@@ -1,0 +1,25 @@
+    1. Login details                                ---Later separate microservice
+    2. Add payment                                  --Done
+    3. view payment                                 --Done
+    4. view profile                                 ---Done
+    5. edit profile                                 ---Done
+    6. Add profile                                  --Done
+    7. View all the payments by customerid          --Done
+    8. View all payments by Date                   --Done
+
+    9. View Seatbookings                             --Done
+
+16-12-2024 Try:
+    1. Update separate dto(do patch mapping)
+    2. View Driver Data
+
+
+
+
+    Driver:
+        1. Login details                        ---Later separate microservice
+        2. View Booked Customer details
+        3. view profile
+        4. edit profile
+        5. Add Seat Booking task
+        6. view seat booking
